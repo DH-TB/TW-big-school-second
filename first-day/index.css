@@ -9,17 +9,18 @@ header {
     background: #fcfaf4;
 }
 
-.td1{
+.logo{
     width: 300px;
     border-right: 1px solid #e9e9e9;
+    position: relative;
 }
 
-.td2 {
+.navigation {
     flex: 1;
     margin-top: 10px;
 }
 
-.td3{
+.donate{
     width: 300px;
     border-left: 1px solid #e9e9e9;
 }
@@ -39,40 +40,41 @@ ul li{
     border: 1px solid #e9e9e9;
 }
 
-#Donate {
+.btn-donate {
     margin-left: 20px;
     margin-top: 20px;
     color: black;
     padding: 5px 20px;
 }
 
-#studentButton {
+
+.btn-student {
     margin-top: -500px;
     margin-left: 500px;
 }
 
-#tutorButton {
+.btn-tutor {
     background-color: #f3eeeb4f;
     margin-top: -500px;
     margin-left: 800px;
 }
 
-#DonateButton {
+.btn-donate-second {
     background-color: #f6cd62;
-    margin-left: 45%;
+    margin-left: 47%;
 }
 
-#startLearnButton {
+.btn-start-learn {
     background: #7cb69a;
     border-color: #7cb69a;
 }
 
-#joinUsButton {
+.btn-join {
     background: #e3c17a;
     border-color: #e3c17a;
 }
 
-#helpUsButton {
+.btn-help {
     background: #85a2ba;
     border-color:#85a2ba;
 }
